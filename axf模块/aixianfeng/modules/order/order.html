@@ -1,0 +1,61 @@
+<div class="order">
+		<header class="header2">
+			新鲜预定
+		</header>
+		<div class="freshDiv1">
+			<a href="#">精选水果</a>
+			<a href="#">精选水果</a>
+			<a href="#">精选水果</a>
+			<a href="#">肉禽蛋</a>
+			<a href="#">精选水果</a>
+		</div>
+		<div class="freshDiv2">
+			<a href="#">精选水果</a>
+			<a href="#">精选水果</a>
+			<a href="#">精选水果</a>
+			<a href="#">精选水果</a>
+			<a href="#">精选水果</a>
+		</div>
+		<div class="fresh"><span>精选水果</span></div>
+		<ul class="order_ul1">
+			<!-- <li class="freshlist1">
+				<p></p>
+				<div>
+					<p>[次日达]西梅阿拉斯加狭</p>
+					<p>鳕鱼片</p>
+					<div><span>￥</span>28</div>
+				</div>
+				<span></span>
+			</li>
+			<li class="freshlist2">
+				<p></p>
+				<div>
+					<p>[次日达]西梅阿拉斯加狭</p>
+					<p>鳕鱼片</p>
+					<div><span>￥</span>28</div>
+				</div>
+				<span></span>
+			</li>
+			<li class="freshlist3">
+				<p></p>
+				<div>
+					<p>[次日达]西梅阿拉斯加狭</p>
+					<p>鳕鱼片</p>
+					<div><span>￥</span>28</div>
+				</div>
+				<span></span>
+			</li> -->
+		</ul>
+	</div>
+	<script type="text/html" id="order_order">
+		<%for(var i=0;i<product.length;i++){%>
+			<li>
+				<p style="background: url(<%=product[i].img%>) no-repeat center;background-size: contain;float: left;padding-top: 1.38rem;width: 50%;"></p>
+				<div>
+					<p><%=product[i].name%></p>
+					<div><span>￥</span><%=product[i].price%></div>
+				</div>
+				<span></span>
+			</li> 
+		<%}%>
+	</script>

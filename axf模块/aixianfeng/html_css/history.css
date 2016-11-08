@@ -1,0 +1,60 @@
+@charset"UTF-8";
+*{
+	margin: 0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+a{
+	text-decoration: none;
+	display: inline-block;
+	color: black;
+}
+ul{
+	list-style: none;
+}
+body{
+	font-size: .12rem;
+	background: #efefef;
+}
+/*头部*/
+header{
+	width: 100%;
+	background: #f9fafd;
+	background-size: 101% 100%;
+	height: .55rem;
+	font-size: .14rem;
+}
+header img{
+	float: left;
+	margin:.15rem .2rem;
+}
+header input{
+	height: .34rem;
+	margin: .125rem 0rem;
+	float: left;
+	background:url(images/fdj.gif) no-repeat .1rem center;
+	background-size: 10%;
+	padding-left: .3rem;
+	border: 1px solid #ccc;
+	width: 60%;
+	border-radius: .05rem;
+}
+header a{
+	float: right;
+	margin-right: .2rem;
+	line-height: .55rem;
+	color: #666;
+}
+.hotSearch,.historySearch{
+	padding: .2rem 0 0 .2rem;
+}
+.hotSearch p,.historySearch p{
+	height: .25rem;
+	color: #999;
+}
+.hotSearch a,.historySearch a{
+	padding:.1rem .15rem;
+	margin: .1rem;
+	background: #fff;
+	border-radius: .1rem;
+}

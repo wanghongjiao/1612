@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<title>疯狂秒杀</title>
+	<link rel="stylesheet" type="text/css" href="secKill.css">
+	<script type="text/javascript" src="../js/demo.js"></script>
+	<script type="text/javascript" src="../js/jquery-1.11.2.js"></script>
+	<script type="text/javascript" src="../lib/baiduTemplate.js"></script>
+	<script type="text/javascript" src="secKill.js"></script>
+</head>
+<body>
+	<header>
+	<img src="images/lt.gif" class="lt">
+		疯狂秒杀
+	<img src="images/recover.gif" class="recover">
+
+	</header>
+	<div class="banner">
+		
+	</div>
+	<ul class="mainUl">
+		<li>
+			<div>10:00</div>
+			<div>已结束</div>
+			<p></p>
+		</li>
+		<li>
+			<div>10:00</div>
+			<div>已结束</div>
+			<p></p>
+		</li>
+		<li>
+			<div>10:00</div>
+			<div>已结束</div>
+			<p></p>
+		</li>
+		<li>
+			<div>10:00</div>
+			<div>已结束</div>
+			<p></p>
+		</li>
+	</ul>
+	<div class="main2">
+		<div>
+			<p>本场已结束</p>
+			<p>00:00:00</p>
+		</div>
+		<span>查看活动规则</span>
+	</div>
+	<ul class="main3">
+		<!-- <li>
+			<p></p>
+			<div>
+				<div>统一香辣味老坛酸菜</div>
+				<div>120g/桶*2</div>
+				<div><span>￥</span><span>4.9</span>/原价：10元</div>
+				<span class="over">已抢光</span>
+			</div>
+		</li>
+		<li>
+			<p></p>
+			<div>
+				<div>统一香辣味老坛酸菜</div>
+				<div>120g/桶*2</div>
+				<div><span>￥</span><span>4.9</span>/原价：10元</div>
+				<span class="over">6.9元抢购</span>
+			</div>
+		</li> -->
+	</ul>
+	<p><span class="hotsell">热卖</span></p>
+	<ul class="main4">
+		<li>
+			<div></div>
+			<p>农夫山泉引用矿泉水</p>
+			<p>1.5L</p>
+			<P>￥3</P>
+			<span></span>
+		</li>
+		<li>
+			<div></div>
+			<p>农夫山泉引用矿泉水</p>
+			<p>1.5L</p>
+			<P>￥3</P>
+			<span></span>
+		</li>
+		<li>
+			<div></div>
+			<p>农夫山泉引用矿泉水</p>
+			<p>1.5L</p>
+			<P>￥3</P>
+			<span></span>
+		</li>
+		<li>
+			<div></div>
+			<p>农夫山泉引用矿泉水</p>
+			<p>1.5L</p>
+			<P>￥3</P>
+			<span></span>
+		</li>
+		<li>
+			<div></div>
+			<p>农夫山泉引用矿泉水</p>
+			<p>1.5L</p>
+			<P>￥3</P>
+			<span></span>
+		</li>
+		<li>
+			<div></div>
+			<p>农夫山泉引用矿泉水</p>
+			<p>1.5L</p>
+			<P>￥3</P>
+			<span></span>
+		</li>
+		<li>
+			<div></div>
+			<p>农夫山泉引用矿泉水</p>
+			<p>1.5L</p>
+			<P>￥3</P>
+			<span></span>
+		</li>
+
+	</ul>
+	<p ><span class="activeRule">活动规则</span></p>
+	<div class="text">
+		<p>1.买的商品，请选择收货地址再进行购买啊地址本兮失误购买货地址再</p>
+		<p>2.本兮失误购买的商，择收货地择收</p>
+		<p>3.本兮失误购买的商品，请选择收货地址再进行购买啊地址收货地址再</p>
+		<p>4.本次的商品，请选择收货地址再进、行购买啊地址本兮失误购买的商品，请选址再</p>
+		<p>5.失误购买的商品，请选择收货地址再进行购买兮失误购买的商品，请选择收货地址再</p>
+		<p>6.本兮失误购买再进行购买啊地址本兮失误购买的商品，请选择收货</p>
+	</div>
+	<span></span>
+</body>
+<script type="text/html" id="secKill_top">
+	<%for(var i=0;i<product.length;i++){%>
+		<li>
+			<p style="background: url(<%=product[i].img%>) no-repeat;width: 1.45rem;height: 1.6rem;background-size: 105% 100%;float: left;border-right: 1px solid #ddd;"></p>
+			<div>
+				<div><%=product[i].name%></div>
+				<div><%=product[i].specifics%></div>
+				<div><span>￥</span><span><%=product[i].price%></span>/原价：<%=product[i].market_price%>元</div>
+				<span class="over"><%=product[i].btnText%></span>
+			</div>
+		</li>
+	<%}%>
+</script>
+</html>

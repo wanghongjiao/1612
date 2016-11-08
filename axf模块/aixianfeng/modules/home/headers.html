@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<title>头</title>
+	<script type="text/javascript" src="js/demo.js"></script>
+	<style type="text/css">
+		*{
+		margin: 0px;
+		padding:0px;
+		box-sizing:border-box;
+	}
+	a{
+		text-decoration: none;
+		display: inline-block;
+		color: black;
+	}
+	ul{
+		list-style: none;
+	}
+		/*头部*/
+		header{
+			display: flex;
+			width: 100%;
+			font-size: 0.14rem;
+			height: .55rem;
+			background-color: #ffd600;
+			position: fixed;
+			top: 0px;
+			left: 0px;
+			z-index: 1;
+			border: none;
+			
+		}
+		.sao{
+			padding-top: .05rem;
+			flex: 1;
+			
+		}
+		.sao img{
+			margin-left: .12rem;
+			width: 50%;
+			
+		}
+		.sao p{
+			margin-left: .05rem;
+			line-height: .15rem;
+		}
+		.address{
+			flex: 1;
+			font-weight: 700;
+			line-height: .45rem;
+			text-align: center;
+		}
+		.address span::after{
+			content: '▼';
+			font-size: .12rem;
+		}
+		.search{
+			flex: 1;
+			text-align: right;
+		}
+		.search img{
+			margin-right: .13rem;
+			height: .28rem;
+			margin-top: .04rem;
+
+		}
+		.search p{
+			margin-right: .15rem;
+		}
+	</style>
+	
+	
+</head>
+<body>
+	<header>
+		<div class="sao">
+			<a href="#">
+				<img src="images/sao.gif">
+				<p>扫一扫</p>
+			</a>
+		</div>
+		<div class="address">
+			<a href="#">
+				<span>回龙观111</span>
+			</a>
+		</div>
+		<div class="search">
+			<a href="#">
+				<img src="images/search.png">
+				<p>搜索</p>
+			</a>
+		</div>
+	</header>
+</body>
+</html>

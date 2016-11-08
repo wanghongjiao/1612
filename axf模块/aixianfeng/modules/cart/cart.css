@@ -1,0 +1,231 @@
+@charset'UTF-8';
+*{
+	margin: 0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+a{
+	text-decoration: none;
+	display: inline-block;
+	color: black;
+}
+ul{
+	list-style: none;
+}
+
+body{
+	font-size: .12rem;
+	background: #efefef;
+}
+/*头部*/
+.header3{
+	height: .55rem;
+	background: #f9fafd;
+	font-size: .16rem;
+	font-weight: 800;
+	text-align: center;
+	line-height: .55rem;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+}
+.cart .address {
+	margin-top: .55rem;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+	width: 100%;
+	margin-bottom: .1rem;
+	background-color: #fff;
+	border-image: url(../../css/images/border.bmp);
+	border-image-slice: 10;
+	border-image-repeat: round;
+
+}
+.cart .address tr td:first-of-type{
+	width:29%;
+}
+.cart .address tr td:nth-of-type(2){
+	width: 50%;
+}
+.cart .address tr:first-of-type td:nth-of-type(3){
+	width: 21%;
+	line-height: .93rem;
+}
+.cart td{	
+	padding-left: .2rem;
+	height: .2rem;
+	line-height: .2rem;
+	font-size: .14rem;
+}
+/*凑单专区*/
+.cart span{
+	display: inline-block;
+}
+.cart .cart_div1{
+	color: #999;
+	border-bottom: 1px solid #ccc;
+	background: #fff;
+	padding-top: .1rem;
+}
+.cart .cart_div1 span:first-child{
+	padding: .02rem .1rem;
+	border-left: .08rem #ffd600 solid;
+	margin-left: .2rem;
+	vertical-align: bottom;
+}
+.cart .cart_div1 span:nth-child(2){
+	border: 1px solid #e64f1a;
+	padding: .06rem .2rem;
+	border-radius:.2rem;
+	float: right;
+	margin-right: .3rem;
+	color: #e64f1a;
+}
+.cart .cart_div1>div{
+	height: .4rem;
+	font-size: .12rem;
+}
+.cart .cart_div1 p{
+	padding-left: .2rem;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	line-height: .22rem;
+}
+.cart .cart_div2{
+	border-bottom: 1px solid #ccc;
+	line-height: .6rem;
+	background: #fff;
+}
+.cart .cart_div2 span:first-child{
+	padding: 0 .2rem;
+	width: 30%;
+}
+.cart .cart_div2 span:nth-child(2){
+	width: 45%;
+	color: red;
+}
+.cart .cart_div2 span:nth-child(3){
+	width: 25%;
+
+}
+.cart .cart_div3{
+	border-bottom: 1px solid #ccc;
+	height: .6rem;
+	line-height: .6rem;
+	background: #fff;
+}
+.cart .cart_div3 span{
+	padding: 0 .2rem;
+	width: 30%;
+}
+.cart .cart_div3 input{
+	height: .35rem;
+	border-radius: .05rem;
+	border: 1px solid #ccc;
+	width: 60%;
+}
+/*购物车的货品*/
+.cart .stuff{
+	background: #fff;
+	/*margin-bottom: .7rem;*/
+}
+.cart .stuff tr{
+	height: .97rem;
+	border-bottom: 1px solid #ccc;
+	width: 100%;
+}
+
+.cart .stuff .td1,.stuff .td2{
+	width: 18%;
+}
+.cart .stuff .td1 span{
+	width: .2rem;
+	height: .2rem;
+	border-radius: 50%;
+	border: 1px solid #ccc;
+	margin-top: .15rem;
+	background: url(../../css/images/true.png) no-repeat left center;
+	background-size: 100% 100%;
+
+}
+.cart .stuff .td2 div{
+	width: .6rem;
+	height: .6rem;
+	background: url(../../css/images/shoppingCar_1.jpg) no-repeat;
+	background-size: 100% 100%;
+
+}
+.cart .stuff .td3 div:first-child{
+	height: .4rem;
+	padding-top: .1rem;
+	font-size: .14rem;
+	color: #444;
+}
+.cart .stuff .td3>div:last-child{
+	line-height: .5rem;
+	height: .5rem;
+	position: relative;
+}
+.cart .stuff .td3>div p{
+	position: absolute;
+	right: .2rem;
+	bottom: 0.1rem;
+
+}
+.cart .stuff .td3>div p span:first-child{
+	border: 1px solid #ffbe89;
+	width: .25rem;
+	height: .25rem;
+	border-radius: 50%;
+	background:#ff4300 url(../../css/images/add1.png) no-repeat left center;
+	background-size: 200% 100%;
+	
+}
+.cart .stuff .td3 div>p span:nth-child(2){
+	font-size: .16rem;
+	display: inline-block;
+	box-sizing:border-box;
+	height: .25rem;
+	line-height: .25rem;
+}
+
+.cart .stuff p>span{
+	float: left;
+}
+.cart .stuff .td3 div>p span:last-child{
+	border: 1px solid #ffbe89;
+	width: .25rem;
+	height: .25rem;
+	border-radius: 50%;
+	background:#ff4300 url(../../css/images/add1.png) no-repeat right center;
+	background-size: 200% 100%;
+
+}
+ .allSelector{
+	margin-bottom: .7rem;
+	height: .5rem;
+	background-color: #fff;
+	line-height: .5rem;
+
+}
+ .allSelector span:first-of-type{
+	float: left;
+	width: .2rem;
+	height: .2rem;
+	border-radius: 50%;
+	border: 1px solid #ccc;
+	background: url(../../css/images/true.png) no-repeat left center;
+	background-size: 100% 100%;
+	margin:0 .1rem 0.05rem .2rem;
+	margin-top: .15rem;
+}
+ .allSelector span:nth-of-type(2){
+	color: red;
+}
+ .allSelector p{
+	float: right;
+	padding: 0 .25rem;
+	background-color: yellow;
+}

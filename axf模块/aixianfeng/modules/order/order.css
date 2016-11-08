@@ -1,0 +1,121 @@
+@charset"UTF-8";
+*{
+	margin: 0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+a{
+	text-decoration: none;
+	display: inline-block;
+	color: black;
+}
+ul{
+	list-style: none;
+}
+body{
+	font-size: .12rem;
+	background: #efefef;
+}
+/*头部*/
+.header2{
+	background: #f9fafd;
+	height: .55rem;
+	font-size: .14rem;
+	text-align: center;
+	font-weight: 800;
+	line-height: .55rem;
+	margin-bottom: .1rem;
+}
+.order .freshDiv1,.freshDiv2{
+	border-bottom: 1px solid #ccc;
+	line-height: .44rem;
+	height: .44rem;
+	background:#fff;
+}
+.order .freshDiv1 a,.freshDiv2 a{
+	display: inline-block;
+	margin: 0 .05rem;
+	line-height: .44rem;
+
+}
+.order .freshDiv1 a:hover{
+	font-weight: 800;
+	border-bottom: 1px solid black;
+}
+.order .freshDiv2 a:hover{
+	font-weight: 800;
+	border-bottom: 1px solid black;
+}
+.order .fresh{
+	height: .4rem;
+	border-bottom: 1px solid #ccc;
+	background: #fff;
+	margin-top: .1rem;
+}
+.order .fresh span{
+	display: inline-block;
+	height: .2rem;
+	line-height: .2rem;
+	font-size: .14rem;
+	padding-left:.1rem;
+	border-left: .08rem solid #2bb1fa;
+	margin: .1rem;
+}
+.order .order_ul1{
+	overflow: hidden;
+	background: #fff;
+}
+.order .order_ul1 li{
+	padding:.1rem 0;
+	font-size: .13rem;
+	color: #666;
+	position: relative;
+	overflow: hidden;
+	border-bottom: 1px solid #ccc;
+}
+.order .order_ul1>li>p{
+	float: left;
+	padding-top: 1.35rem;
+	width: 50%;
+}
+/*.order .order_ul1 .freshlist1>p{
+	background: url(../../css/images/fresh1.gif) no-repeat center;
+	background-size: 90% 100%;
+}
+.order .order_ul1 .freshlist2>p{
+	background: url(../../css/images/fresh2.gif) no-repeat center;
+	background-size: 90% 100%;
+	float: left;
+	padding-top: 1.38rem;
+	width: 50%;
+}
+.order .order_ul1 .freshlist3>p{
+	background: url(../../css/images/fresh1.gif) no-repeat center;
+	background-size: 90% 100%;
+}*/
+.order ul li>div{
+	line-height: .24rem;
+}
+.order ul li>div div{
+	margin-top: .35rem;
+	font-weight: 900;
+	font-size: .2rem;
+	color: red;
+}
+.order ul span{
+	font-size: .1rem;
+	font-weight: 0;
+}
+.order ul li>span{
+	background: #ffd600 url(../../css/images/shopCar.png) no-repeat center;
+	background-size: 100% 100%;
+	padding: .2rem;
+	position: absolute;
+	bottom: .1rem;
+	right: .2rem;
+	border-radius: 50%;
+}
+.order ul {
+	margin-bottom: .7rem;
+	overflow: hidden;
+}

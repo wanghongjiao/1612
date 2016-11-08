@@ -1,0 +1,191 @@
+@charset"UTF-8";
+*{
+	margin: 0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+a{
+	text-decoration: none;
+	display: inline-block;
+	color: black;
+}
+ul{
+	list-style: none;
+}
+body{
+	font-size: .12rem;
+	font:.14rem "Myriad Set Pro","Lucida Grande","Helvetica Neue",Helvetica,Arial,Verdana,sans-serif,'Microsoft Yahei',Simsun;
+	background: #efefef;
+}
+.my .header4{
+	height: 1.2rem;
+	background: #ffd600;
+}
+.my .user{
+	width: 100%;
+}
+.my .user div{
+	float: left;
+	overflow: hidden;
+}
+.my .userUser{
+	background: url(../../css/images/user.png) no-repeat left center;
+	background-size: 100% 100%;
+	padding-top: .71rem;
+	width: .71rem;
+	margin:.23rem .19rem;
+}
+.my .user div p:first-child{
+	color: #fff;
+	font-weight: 700;
+	margin-top: .25rem;
+	line-height: .3rem;
+	height: .3rem;
+}
+.my .user div p:nth-child(2){
+	background: url(../../css/images/user_lever.png) no-repeat left center;
+	background-size: 100% 100%;
+	width: 1rem;
+	height: .35rem;
+	color: red;
+	font-size: .14rem;
+	font-weight: 800;
+	text-align: right;
+	line-height: .35rem;
+	padding-right: .1rem;
+}
+.my .user span{
+	float: right;
+	font-size: .2rem;
+	font-weight: 500;
+	color: #fff;
+	margin-right: .3rem;
+	margin-top: .45rem;
+
+}
+.my .collect{
+	clear: both;
+	height: .42rem;
+	background: #f3c800;
+}
+.my .collect p{
+	float: left;
+	height: .25rem;
+	width: 50%;
+	line-height: .25rem;
+	color: #fff;
+	font-size: .12rem;
+	margin-top: .1rem;
+}
+.my .thingColl{
+	background: url(../../css/images/thingCollect.png) no-repeat .36rem center;
+	background-size:13% 70%;
+	padding-left: .7rem;
+	border-right: 1px solid #fff;
+}
+.my .shopColl{
+	background: url(../../css/images/shopCollect.png) no-repeat .36rem center;
+	background-size:13% 70%;
+	padding-left: .7rem;
+}
+/*我的订单*/
+.my .order {
+	background: #fff;
+	border-bottom: 1px solid #ccc;
+	height: .5rem;
+	margin-top: .1rem;
+	line-height: .5rem;
+	padding-left: .2rem;
+}
+.my .order span{
+	float: right;
+	margin-right: .2rem;
+}
+.my .order span a{
+	color: #999;
+}
+.my .ulList{
+	overflow: hidden;
+
+}
+.my .ulList li{
+	text-align: center;
+	float: left;
+	width: 25%;
+	font-size: .12rem;
+	margin-bottom: .1rem;
+	background: #fff;
+	padding-bottom: .1rem;
+}
+.my .obligation{
+	background: url(../../css/images/ulList1.png) no-repeat center;
+	background-size: 25% 100%;
+	padding-top: .20rem;
+	margin: .2rem 0 .15rem 0;
+}
+.my .receive{
+	background: url(../../css/images/ulList2.png) no-repeat center;
+	background-size: 25% 100%;
+	padding-top: .20rem;
+	margin: .2rem 0 .15rem 0;
+}
+.my .evalue{
+	background: url(../../css/images/ulList3.png) no-repeat center;
+	background-size: 25% 100%;
+	padding-top: .20rem;
+	margin: .2rem 0 .15rem 0;
+}
+.my .sale{
+	background: url(../../css/images/ulList4.png) no-repeat center;
+	background-size: 25% 100%;
+	padding-top: .20rem;
+	margin: .2rem 0 .15rem 0;
+}
+.my .ulbottom li{
+	float: left;
+	width: 25%;
+	text-align: center;
+	font-size: .12rem;
+	border-bottom: 1px solid #ccc;
+}
+.my .ulbottom li p{
+	margin-bottom: .2rem;
+}
+.my .ulbottom {
+	background: #fff;
+	height: 1.9rem;
+	margin-bottom: .2rem;
+	
+}
+.my .ulbottom li div{
+	margin-top: .2rem;
+	margin-bottom: .1rem;
+	padding-top: .30rem;
+}
+.my .lis1{
+	background: url(../../css/images/lis1.png) no-repeat center;
+	background-size: 45% 100%;
+}
+.my .lis2{
+	background: url(../../css/images/lis2.png) no-repeat center;
+	background-size: 45% 100%;
+}
+.my .lis3{
+	background: url(../../css/images/lis3.png) no-repeat center;
+	background-size: 45% 100%;
+}
+.my .lis4{
+	background: url(../../css/images/lis4.png) no-repeat center;
+	background-size: 45% 100%;
+}
+.my .lis5{
+	background: url(../../css/images/lis5.png) no-repeat center;
+	background-size: 45% 100%;
+}
+.my .signOut{
+	height: .5rem;
+	text-align: center;
+	line-height: .5rem;
+	background: #fff;
+	margin-bottom: .7rem;
+}

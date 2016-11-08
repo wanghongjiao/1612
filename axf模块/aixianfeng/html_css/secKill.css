@@ -1,0 +1,261 @@
+@charset"UTF-8";
+*{
+	margin: 0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+a{
+	text-decoration: none;
+	display: inline-block;
+	color: black;
+}
+ul{
+	list-style: none;
+}
+body{
+	font-size: .12rem;
+	background: #efefef;
+
+}
+header{
+	background: #f9fafd;
+	height: .55rem;
+	font-size: .14rem;
+	font-weight: 800;
+	line-height: .55rem;
+	text-align: center;
+}
+header .lt{
+	float: left;
+	margin: .15rem .2rem;
+}
+header .recover{
+	float: right;
+	margin: .12rem .2rem;
+}
+.banner{
+	background: url(images/secKill_banner.jpg) no-repeat;
+	background-size: 100% 100%;
+	height: 1.4rem;
+}
+.mainUl li{
+	float: left;
+	width: 25%;
+	text-align: center;
+	background: #272c2a;
+	border: 1px solid #fff;
+
+}
+.mainUl li:last-child{
+	background-color: #fdd000;
+
+}
+
+.mainUl li div{
+	line-height: .24rem;
+	height: .24rem;
+	color: #fff;
+}
+.mainUl li p{
+	background: url(images/mainUlP.png) no-repeat right center;
+	background-size: contain;
+	padding: .1rem;
+	margin-right: .3rem;
+	margin-bottom: .1rem;
+
+}
+.mainUl li:last-child p{
+	margin-left: .3rem;
+	margin-right: 0px;
+}
+.main2{
+	clear: both;
+	height: .4rem;
+	background: url(images/main_background.gif) no-repeat;
+	background-size: 100% 100%;
+}
+.main2 div{
+	display: inline-block;
+	width: 40%;
+	text-align: center;
+	float: left;
+}
+.main2 div p{
+	line-height: .2rem;
+}
+.main2 span{
+	float: right;
+	display: inline-block;
+	padding: .05rem .1rem;
+	border-radius: .15rem;
+	background: #272c2a;
+	color: #fff;
+	margin-top: .1rem;
+	margin-right: .2rem;
+	font-size:.14rem; 
+}
+.main3 li{
+	overflow: hidden;
+	margin-bottom: .05rem;
+	background: #fff;
+}
+.main3 li:first-of-type p{
+	background: url(images/secKill1.jpg) no-repeat;
+	width: 1.45rem;
+	height: 1.6rem;
+	background-size: 105% 100%;
+	float: left;
+	border-right: 1px solid #ddd;
+}
+.main3 li:nth-of-type(2) p{
+	background: url(images/secKill2.jpg) no-repeat;
+	width: 1.45rem;
+	height: 1.6rem;
+	background-size: 110% 100%;
+	float: left;
+	border-right: 1px solid #ddd;
+}
+
+.main3 li>div{
+	float: left;
+	width: 1.75rem;
+	padding-top: .1rem;
+	padding-left: .15rem;
+}
+.main3 li>div>div{
+	height: .3rem;
+	line-height: .3rem;
+	font-size: .14rem;
+}
+.main3 div div span:first-of-type{
+	color: red;
+}
+.main3 div div span:nth-of-type(2){
+	line-height: .35rem;
+    color: #ff602c;
+    font-size: .25rem;
+    font-weight: 700;
+}
+.main3 div div:last-of-type{
+	color: #999;
+}
+.over{
+	display: inline-block;
+	padding: .1rem .3rem;
+	color: #fff;
+	background: #aaaaaa;
+	font-size: .16rem;
+	margin: .12rem;
+	margin-top: .2rem;
+	border-radius: .2rem;
+}
+.main3 li:nth-of-type(2) .over{
+	background: #ff602c;
+}
+.main3 li{
+	margin-bottom: .05rem;
+}
+body>p{
+	text-align: center;
+	font-size: .16rem;
+	color: #333;
+	border-bottom: .03rem solid #ddd;
+	padding-bottom: .1rem;
+}
+.hotsell,.activeRule{
+	display: inline-block;
+	padding-left: .1rem;
+	border-left: .05rem solid #fdd000;
+}
+/*搜索的商品展示部分*/
+.main4{
+	overflow: hidden;
+	margin-bottom: .2rem;
+}
+.main4 li{
+	width: 46%;
+	margin-left: 2.8%;
+	background: #fff;
+	position: relative;
+	margin-top: .08rem;
+	float: left;
+}
+.main4 li div:first-child{
+	border-bottom: 1px dashed #ccc;
+}
+.main4 li:first-of-type div:first-child{
+	background: url(images/creazy1.jpg) no-repeat center;
+	background-size: 100% 100%;
+	padding-top: 1.45rem;
+}
+.main4 li:nth-of-type(2) div:first-child{
+	background: url(images/creazy2.jpg) no-repeat center;
+	background-size: 100% 100%;
+	padding-top: 1.45rem;
+}
+.main4 li:nth-of-type(3) div:first-child{
+	background: url(images/creazy3.jpg) no-repeat center;
+	background-size: 100% 100%;
+	padding-top: 1.45rem;
+}
+.main4 li:nth-of-type(4) div:first-child{
+	background: url(images/creazy4.jpg) no-repeat center;
+	background-size: 100% 100%;
+	padding-top: 1.45rem;
+
+}
+.main4 li:nth-of-type(5) div:first-child{
+	background: url(images/creazy5.jpg) no-repeat center;
+	background-size: 100% 100%;
+	padding-top: 1.45rem;
+}
+.main4 li:nth-of-type(6) div:first-child{
+	background: url(images/creazy6.jpg) no-repeat center;
+	background-size: 100% 100%;
+	padding-top: 1.45rem;
+}
+
+.main4 li:nth-of-type(7) div:first-child{
+	background: url(images/creazy7.jpg) no-repeat center;
+	background-size: 100% 100%;
+	padding-top: 1.45rem;
+}
+
+
+.main4 li p{
+	line-height: .24rem;
+	height: .24rem;
+	padding-left: .05rem;
+}
+.main4 li p:last-of-type{
+	color: red;
+}
+.main4 li span:last-child{
+	position: absolute;
+	right: 0.2rem;
+	bottom: 0.1rem;
+	border: 1px solid #ccc;
+	width: .3rem;
+	height: .3rem;
+	border-radius: 50%;
+	background:#ff4300 url(images/add.png) no-repeat right center;
+	background-size: 200% 100%;
+}
+.text{
+	padding: .2rem .3rem 0 .45rem;
+	color: #666;
+	margin-bottom: .3rem;
+}
+.text p{
+	line-height: .2rem;
+	text-indent: -1em;
+}
+body>span{
+	background: #ffd600 url(images/shopCar.png) no-repeat center;
+	background-size: 100% 100%;
+	padding: .354rem;
+	position: fixed;
+	bottom: .1rem;
+	right: .1rem;
+	border-radius: 50%;
+}

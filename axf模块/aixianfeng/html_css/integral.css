@@ -1,0 +1,134 @@
+@charset"UTF-8";
+*{
+	margin: 0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+a{
+	text-decoration: none;
+	display: inline-block;
+	color: black;
+}
+ul{
+	list-style: none;
+}
+body{
+	font-size: .12rem;
+	background: #efefef;
+
+}
+header{
+	text-align: center;
+	background: #f9fafd;
+	height: .55rem;
+	line-height: .55rem;
+	font-weight: 700;
+	background: #f9fafd ;
+	background-size: 100% 100%;
+	font-size: .14rem;
+}
+header span{
+	float: left;margin-left: .34rem;
+}
+header img{
+	background: url(images/lt.gif) center no-repeat;
+	padding: .15rem;
+	float: left;
+	margin: 0rem .2rem;
+}
+.circle{
+	background: #fff;
+	border-bottom: 1px solid #ccc;
+}
+/*.circle p{
+	width: .98rem;
+	height: .98rem;
+	background: #fff;
+	border-radius: 50%;
+	border: .08rem solid #c7c7c7;
+}
+.circlewrap{
+	width:1.38rem;
+	height: 1.38rem;
+	border:.2rem solid #dddddd;
+	border-radius: 50%;
+	
+}
+.circleinner{
+	text-align: center;
+	padding-top: .3rem;
+	font-size: .14rem;
+	color: #999;
+}*/
+
+
+
+
+.itegralUL li{
+	float: left;
+	width: 33.33%;
+	background: #fff;
+	border-right: 1px solid #ddd;
+	padding-bottom: .1rem;
+	margin-bottom: .15rem;
+}
+.itegralUL li p{
+	
+	padding-top: .3rem;
+	margin: .1rem 0;
+}
+.itegralUL li div{
+	text-align: center;
+	color: #999;
+}
+.p1{
+	background: url(images/iteli1.png) no-repeat center;
+	background-size: contain;
+}
+.p2{
+	background: url(images/iteli2.png) no-repeat center;
+	background-size: contain;
+}
+.p3{
+	background: url(images/iteli3.png) no-repeat center;
+	background-size: contain;
+}
+.monery{
+	clear: both;
+}
+.monery li{
+	width: 50%;
+	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	background: #fff;
+	padding-top: .1rem;
+	float: left;
+}
+.monery li .p4{
+	background: url(images/three.jpg) no-repeat center;
+	background-size: contain;
+	padding-top: .75rem;
+}
+.monery li .p5{
+	background: url(images/five.jpg) no-repeat center;
+	background-size: contain;
+	padding-top: .75rem;
+}
+.monery li .p6{
+	background: url(images/eight.jpg) no-repeat center;
+	background-size: contain;
+	padding-top: .75rem;
+}
+.monery li .p7{
+	background: url(images/ten.jpg) no-repeat center;
+	background-size: contain;
+	padding-top: .75rem;
+}
+.monery li div{
+	padding-left: .1rem;
+	line-height: .25rem;
+	color: #444;
+}
+.monery li div:last-child{
+	color: red;
+}

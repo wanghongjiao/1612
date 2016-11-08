@@ -1,0 +1,156 @@
+
+<div class="store">
+	<header class="header1">
+			<div class="sao">
+				<a href="#">
+					<img src="css/images/sao.gif">
+					<p>扫一扫</p>
+				</a>
+			</div>
+			<div class="address1">
+				<a href="#">
+					<span>回龙观111</span>
+				</a>
+			</div>
+			<div class="search">
+				
+					<img src="css/images/search.png">
+					<p>搜索</p>
+				
+			</div>
+	</header>
+	<aside>
+			<ul class="store_ul1">
+				<li class="rxb" >热销榜<img src="css/shop/hot_bg.jpg"></li>
+				<li class="day" >天天特价</li>
+				<li class="goodfruit">优选水果</li>
+				<li class="">卤味熟食</li>
+				<li class="">饮料酒水</li>
+				<li class="">休闲零食</li>
+				<li class="">方便速食</li>
+				<li class="">生活用品</li>
+				<li class="">粮油调味</li>
+				<li class="">肉蛋时蔬</li>
+				<li class="">冰淇淋</li>
+			</ul>
+		</aside>
+		<article>
+			<div class="bigDiv">
+				<div>
+					<span>全部分类</span>
+					<span>综合排序</span>
+				</div>
+			</div>
+			<ul class="store_ul2">
+				<!-- <li class="">
+					<div></div>
+					<div class="div2">
+						<p>骑士1992酸牛奶</p>
+						<p class="selectorP">
+							<span class="lispan1">精选</span>
+							<span class="lispan2">买一赠一</span>
+						</p>
+						<p>180g</p>
+						<p>
+							<span class="pSpan1">￥5.3</span>
+							<span class="pSpan2">￥6.5</span>
+						</p>
+					</div>
+					<span class="positionSpan"></span>
+				</li>
+				<li class="">
+					<div></div>
+					<div class="div2">
+						<p>骑士1992酸牛奶</p>
+						<p class="selectorP">
+							<span class="lispan1">精选</span>
+							<span class="lispan2">买一赠一</span>
+						</p>
+						<p>180g</p>
+						<p>
+							<span class="pSpan1">￥5.3</span>
+							<span class="pSpan2">￥6.5</span>
+						</p>
+					</div>
+					<span class="positionSpan"></span>
+				</li>
+				<li class="">
+					<div></div>
+					<div class="div2">
+						<p>骑士1992酸牛奶</p>
+						<p class="selectorP">
+							<span class="lispan1">精选</span>
+							<span class="lispan2">买一赠一</span>
+						</p>
+						<p>180g</p>
+						<p>
+							<span class="pSpan1">￥5.3</span>
+							<span class="pSpan2">￥6.5</span>
+						</p>
+					</div>
+					<span class="positionSpan"></span>
+				</li>
+				<li class="">
+					<div></div>
+					<div class="div2">
+						<p>骑士1992酸牛奶</p>
+						<p class="selectorP">
+							<span class="lispan1">精选</span>
+							<span class="lispan2">买一赠一</span>
+						</p>
+						<p>180g</p>
+						<p>
+							<span class="pSpan1">￥5.3</span>
+							<span class="pSpan2">￥6.5</span>
+						</p>
+					</div>
+					<span class="positionSpan"></span>
+				</li>
+				<li class="">
+					<div></div>
+					<div class="div2">
+						<p>骑士1992酸牛奶</p>
+						<p class="selectorP">
+							<span class="lispan1">精选</span>
+							<span class="lispan2">买一赠一</span>
+						</p>
+						<p>180g</p>
+						<p>
+							<span class="pSpan1">￥5.3</span>
+							<span class="pSpan2">￥6.5</span>
+						</p>
+					</div>
+					<span class="positionSpan"></span>
+				</li> -->
+			</ul>
+		</article>
+		<!-- 购物车的小数字 -->
+		<span class="car_num">0</span>
+		<!-- 切换模板 -->
+		<script type="text/html" id="store_right">
+			<%for(var i=0;i<data.length;i++){%>
+				<li class="store_li" id="<%=md5(JSON.stringify(data[i]))%>">
+					<div style="background: url(<%=data[i].img%>) no-repeat center;background-size: 100% 100%;padding-top: .96rem;width: 40%;float: left;"></div>
+					<div class="div2">
+						<p><%=data[i].name%></p>
+						<p class="selectorP">
+							<span class="lispan1">精选</span>
+							<span class="lispan2 lispan3"><%=data[i].pm_desc%></span>
+						</p>
+						<p><%=data[i].specifics%></p>
+						<p>
+							<span class="pSpan1">￥<%=data[i].price%></span>
+							<span class="pSpan2">￥<%=data[i].market_price%></span>
+						</p>
+					</div>
+					<span class="lessSpan" > </span>
+					<span class="numberSpan">0</span>
+					<span class="positionSpan"></span>
+					<textarea style="z-index: 4;position: relative;display: none;">
+						<%=JSON.stringify(data[i])%>
+					</textarea>
+				</li>
+			<%}%>
+			
+		</script>
+</div>
